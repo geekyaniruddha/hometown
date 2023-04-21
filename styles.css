@@ -1,0 +1,77 @@
+.main{
+    background-color: #DEF5E5;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    border: 5px double whitesmoke;
+    border-radius: 10px;
+}
+
+#city-img{
+    background-image: url("/images/kolkata-city.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+#city-title{
+    background-color: #088395;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin: 0;
+}
+#city-summary{
+    background-color: #0A4D68;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+#visiting-places{
+    display: flex;
+    justify-content: space-around;
+}
+.circle-img{
+    width: 80px ;
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 80px;
+}
+.visiting-places-items{
+    width: 200px;
+    
+}
+#footer{
+    background: white;
+    padding: 20px;
+}
+
+#guide-card{
+    background: #96eadc;
+    width: 400px;
+    display: flex;
+    margin: auto;
+    padding: 0 12px;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 4px solid #0A4D68;
+}
+
+#guide-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
+#guide-info{
+    margin-left: 8px;
+}
+#guide-info > p{
+    font-style: italic;
+}
